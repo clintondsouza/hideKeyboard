@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     
     
+    
     @IBOutlet weak var niggaName: UITextField!
     
     @IBOutlet weak var helloNigga: UILabel!
@@ -32,6 +33,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print ("random")
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
