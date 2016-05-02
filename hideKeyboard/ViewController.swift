@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     
     
+    
     @IBOutlet weak var niggaName: UITextField!
     
     @IBOutlet weak var helloNigga: UILabel!
@@ -19,6 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func changeLabel(sender: AnyObject) {
         helloNigga.text = "Hello, " + niggaName.text! + "!"
         self.niggaName.resignFirstResponder()
+        print ("random")
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
