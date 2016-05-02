@@ -20,7 +20,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func changeLabel(sender: AnyObject) {
         helloNigga.text = "Hello, " + niggaName.text! + "!"
         self.niggaName.resignFirstResponder()
-        print ("random")
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
@@ -34,6 +33,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print ("random")
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
